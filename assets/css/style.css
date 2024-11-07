@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+}
+:root {
+  --text-color: #000;
+  --color-secondary: #6d7588;
+  --second-size: 13px;
+}
+header {
+  width: 100%;
+  /* padding: 0 10px; */
+}
+.top-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f0f3f7;
+  padding: 5px 32px;
+}
+.top-nav-left ul li,
+.top-nav-right ul li {
+  display: inline;
+}
+
+.top-nav-right ul li a {
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: var(--second-size);
+  color: var(--color-secondary);
+}
+.top-nav-left ul li a {
+  text-decoration: none;
+  margin: 0 5px;
+  font-size: var(--second-size);
+  color: var(--color-secondary);
+}
+.mobile-phone {
+  font-size: 20px;
+}
+.middle-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  padding: 30px 32px;
+  background-color: #fff;
+}
+.mid-nav-center {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.mid-nav-center div p {
+  /* font-size: 16px; */
+  width: auto;
+}
+/* .middle-nav .mid-nav-center div p form input {
+  display: inline;
+  margin: 0 10px;
+} */
+
+.middle-nav .mid-nav-right ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+}
+.middle-nav .mid-nav-right ul li {
+  display: flex;
+  align-items: center;
+  margin: 0 5px;
+}
+.middle-nav .mid-nav-right ul li p {
+  margin: 0 10px;
+  font-size: 15px;
+}
+.icon-toko,
+.icon-profile {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.line {
+  width: 1.2px;
+  height: 30px;
+  background-color: #e4ebf5;
+  margin: 0 10px;
+}
+/* search */
+.search {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.search-icon {
+  font-size: 20px;
+  padding-left: 5px;
+}
+.search-input {
+  font-size: 16px;
+  margin-left: 14px;
+  color: var(--color-secondary);
+  outline: none;
+  border: none;
+  background: transparent;
+  width: 450px;
+}
+.search-input::placeholder,
+.search-icon {
+  color: rgba(0, 0, 0, 0.25);
+}
+
+/* bottom nav */
+.bottom-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 5px 32px;
+  border-bottom: 1px solid #f0f3f7;
+}
+.bot-nav-center ul li {
+  display: inline;
+}
+.bot-nav-center ul li {
+  color: var(--color-secondary);
+  font-size: var(--second-size);
+}
