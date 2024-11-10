@@ -118,34 +118,238 @@
     </header>
     <!-- slide-show -->
 
-    <div class="slider">
+    <div class="slider" id="slider">
       <div class="list">
         <div class="item">
-          <img src="/assets/img/dump1.webp" alt="" />
+          <img src="/assets/img/dump1.webp" alt="" id="image" />
         </div>
         <div class="item">
-          <img src="/assets/img/dump2.webp" alt="" />
+          <img src="/assets/img/dump2.webp" alt="" id="image" />
         </div>
         <div class="item">
-          <img src="/assets/img/dump3.webp" alt="" />
+          <img src="/assets/img/dump3.webp" alt="" id="image" />
         </div>
         <div class="item">
-          <img src="/assets/img/wave.jpg" alt="" />
+          <img src="/assets/img/wave.jpg" alt="" id="image" />
         </div>
       </div>
     </div>
     <!-- button prev and next -->
     <div class="buttons">
-      <button id="prev"><i class="fa-solid fa-chevron-left"></i></button>
-      <button id="next"><i class="fa-solid fa-chevron-right"></i></button>
+      <button id="prev" class="button shadow-l hidden">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+      <button id="next" class="button shadow-r hidden">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
     </div>
+    <!-- <div class="buttons">
+      <button id="prev" class="button hidden">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+      <button id="next" class="button hidden">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+    </div> -->
     <!-- dots (if 4 items => 4 dot) -->
-    <ul class="dots">
-      <li class="active"></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
+    <div class="slider-footer">
+      <ul class="dots">
+        <li class="active"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <div class="promo">
+      <div>
+        <p>Lihat Promo Lainnya</p>
+      </div>
+    </div>
+    <section>
+      <div class="kategori-container">
+        <div class="kategori">
+          <div class="kategori-pilihan">
+            <h2>Kategori Pilihan</h2>
+            <div class="card-container">
+              <div class="card-item">
+                <img src="/assets/img/kategori-produk/headphone.jpg" alt="" />
+                <p>headphone</p>
+              </div>
+              <div class="card-item">
+                <img src="/assets/img/kategori-produk/figure.webp" alt="" />
+                <p>Action Figure</p>
+              </div>
+              <div class="card-item">
+                <img src="/assets/img/kategori-produk/keychain.jpg" alt="" />
+                <p>Keychain</p>
+              </div>
+              <div class="card-item">
+                <img src="/assets/img/kategori-produk/ls.jpg" alt="" />
+                <p>Lighstick</p>
+              </div>
+            </div>
+          </div>
+          <div class="top-up">
+            <div class="text">
+              <h2>Top-up & Tagihan</h2>
+              <h4><a href="">Lihat Semua</a></h4>
+            </div>
+            <!-- <p>
+            Top-up & Tagihan <a href=""><b>Lihat Semua</b></a>
+          </p> -->
+            <div class="top-up-list">
+              <div class="top-up-kategori">
+                <div class="border-bottom">
+                  <div class="top-up-text pulsa">
+                    <a href="">Pulsa</a>
+                  </div>
+                  <div class="top-up-text paket-data">
+                    <a href="">Paket Data</a>
+                  </div>
+                  <div class="top-up-text flight">
+                    <a href="">Flight</a>
+                  </div>
+                  <div class="top-up-text listrik-pln">
+                    <a href="">Listrik PLN</a>
+                  </div>
+                </div>
+                <div class="dots-3">
+                  <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+              </div>
+              <div class="top-up-pulsa">
+                <div class="field">
+                  <p>Nomor Telepon</p>
+                  <div class="nomor">
+                    <input
+                      type="text"
+                      placeholder="Masukkan Nomor"
+                      class="nomor-telepon" />
+                  </div>
+                </div>
+                <div class="field">
+                  <p>Nominal</p>
+                  <div class="nomor">
+                    <input type="text" />
+                    <i class="fa-solid fa-chevron-down nomor-icon"></i>
+                  </div>
+                </div>
+                <div class="field">
+                  <div class="beli">
+                    <input type="text" placeholder="Beli" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="kategori-bottom">
+          <div class="kategori-icon">
+            <img src="/assets/img/kategori/" alt="" />
+            <p>Kategori</p>
+          </div>
+          <div class="kategori-icon">
+            <img src="/assets/img/kategori/phone.png" alt="" />
+            <p>Handphone & Tablet</p>
+          </div>
+          <div class="kategori-icon">
+            <img src="/assets/img/kategori/paper.png" alt="" />
+            <p>Top-Up & TAgihan</p>
+          </div>
+          <div class="kategori-icon">
+            <img src="/assets/img/kategori/head.png" alt="" />
+            <p>Elektronik</p>
+          </div>
+          <div class="kategori-icon">
+            <img src="/assets/img/kategori/pet.png" alt="" />
+            <p>Perawatan Hewan</p>
+          </div>
+          <div class="kategori-icon">
+            <img src="/assets/img/kategori/plane.png" alt="" />
+            <p>Travel & Entertaiment</p>
+          </div>
+          <div class="kategori-icon">
+            <img src="/assets/img/kategori/money.png" alt="" />
+            <p>Keuangan</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="trending">
+        <div class="trending-text">
+          <h2>Lagi Trending, nih</h2>
+          <a href="">
+            <i class="fa-solid fa-rotate-right"></i>
+            Muat Lainnya
+          </a>
+        </div>
+        <div class="trending-list-top">
+          <div class="produk">
+            <img src="/assets/img/produk-trending/camera.jpg" alt="" />
+            <div class="trending-text">
+              <p>Camera</p>
+              <p>1000 produk</p>
+            </div>
+          </div>
+          <div class="produk">
+            <img src="/assets/img/produk-trending/car.jpg" alt="" />
+            <div class="trending-text">
+              <p>Car</p>
+              <p>1000 produk</p>
+            </div>
+          </div>
+          <div class="produk">
+            <img src="/assets/img/produk-trending/parfume.jpg" alt="" />
+            <div class="trending-text">
+              <p>Da Parfume</p>
+              <p>1000 produk</p>
+            </div>
+          </div>
+          <div class="produk">
+            <img src="/assets/img/produk-trending/skincare.jpg" alt="" />
+            <div class="trending-text">
+              <p>Cream</p>
+              <p>1000 produk</p>
+            </div>
+          </div>
+          
+          </div>
+        <div class="trending-list-bot">
+          <div class="produk">
+            <img src="/assets/img/produk-trending/camera.jpg" alt="" />
+            <div class="trending-text">
+              <p>Camera</p>
+              <p>1000 produk</p>
+            </div>
+          </div>
+          <div class="produk">
+            <img src="/assets/img/produk-trending/car.jpg" alt="" />
+            <div class="trending-text">
+              <p>Car</p>
+              <p>1000 produk</p>
+            </div>
+          </div>
+          <div class="produk">
+            <img src="/assets/img/produk-trending/parfume.jpg" alt="" />
+            <div class="trending-text">
+              <p>Da Parfume</p>
+              <p>1000 produk</p>
+            </div>
+          </div>
+          <div class="produk">
+            <img src="/assets/img/produk-trending/skincare.jpg" alt="" />
+            <div class="trending-text">
+              <p>Cream</p>
+              <p>1000 produk</p>
+            </div>
+          </div>
+          
+          </div>
+        </div>
+        
+      </div>
+    </section>
     <!-- js -->
     <script src="/assets/js/app.js"></script>
   </body>
