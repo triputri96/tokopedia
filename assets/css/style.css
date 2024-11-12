@@ -742,6 +742,7 @@ h4,
   border: none;
   background: var(--NN50, #dbdee2);
   margin: 40px 0px;
+  margin-top: 150px;
 }
 .tab-list {
   display: flex;
@@ -798,7 +799,6 @@ h4,
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 150px;
 }
 .button-muat button {
   width: 300px;
@@ -812,6 +812,7 @@ h4,
   cursor: pointer;
 }
 /* footer */
+
 .foot {
   display: flex;
   gap: 20px;
@@ -831,6 +832,9 @@ h4,
   text-decoration: none;
   color: var(--color-secondary);
   font-size: 14px;
+}
+.foot ul li a:hover {
+  color: var(--main-color);
 }
 .foot-center-up .box-image {
   display: inline-block;
@@ -854,6 +858,7 @@ h4,
   width: 70px;
   height: auto;
   margin-right: 10px;
+  cursor: pointer;
 }
 .bsi-img {
   position: relative;
@@ -867,15 +872,19 @@ h4,
 }
 .fa-facebook {
   color: rgb(32, 32, 211);
+  cursor: pointer;
 }
 .fa-twitter {
   color: rgb(27, 118, 255);
+  cursor: pointer;
 }
 .fa-pinterest {
   color: rgb(213, 0, 0);
+  cursor: pointer;
 }
 .fa-square-instagram {
   color: rgb(219, 0, 0);
+  cursor: pointer;
 }
 .iconic img {
   width: 500px;
@@ -901,6 +910,7 @@ h4,
   border: none;
   background-color: #f0f3f7;
   border-radius: 8px;
+  cursor: pointer;
 }
 .translate {
   position: relative;
@@ -918,6 +928,7 @@ h4,
   left: 3px;
   transform: translateY(-50%);
   border-radius: 8px;
+  cursor: pointer;
 }
 .whatsapp {
   position: fixed;
