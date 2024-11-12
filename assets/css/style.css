@@ -293,11 +293,13 @@ footer {
 }
 
 .shadow-l {
-  box-shadow: -5px 0px 8px rgba(0, 0, 0, 0.25); 
+  box-shadow: -5px 0px 8px rgba(0, 0, 0, 0.25);
+}
 .shadow-r {
   position: absolute;
   right: -100px;
   box-shadow: 5px 0 8px rgba(0, 0, 0, 0.25);
+}
 /* .hidden {
   display: none;
 } */
@@ -551,7 +553,7 @@ footer {
 
 .kategori-icon p {
   margin: 0;
-  font-size: 14px; 
+  font-size: 14px;
   text-align: center;
   color: var(--third-color);
 }
@@ -813,6 +815,7 @@ h4,
 .foot {
   display: flex;
   gap: 20px;
+  padding-bottom: 40px;
 }
 .foot ul li,
 .foot p {
